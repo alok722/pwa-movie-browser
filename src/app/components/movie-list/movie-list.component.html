@@ -1,0 +1,15 @@
+<div *ngIf="!movies" class="text-center">
+    <img src="/assets/images/loading.gif" alt="loading..">
+</div>
+<div class="row margin-top">
+    <div class="card col-md-4 col-sm-6 col-xs-12" *ngFor="let m of movies">
+        <div class="alert alert-primary app-clickable"
+            [routerLink]="['/movie-details', m.imdbID]">
+            <div class="card-body">
+                <h5 class="card-title">{{ m.Title }}</h5>
+                <p>{{ m.Year }} ({{ m.Type }})</p>
+                <img [src]="m.Poster" [alt]="m.Title" class="card-img-top">
+            </div>
+        </div>
+    </div>
+</div>

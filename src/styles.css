@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url(https://bootswatch.com/4/sketchy/bootstrap.min.css);
+
+.app-clickable {
+    cursor: pointer;
+}
+h3 {
+    outline: none;
+}
+.margin-top {
+    margin-top: 2vh;
+}
+.margin-more-top {
+    margin-top: 5vh;
+}

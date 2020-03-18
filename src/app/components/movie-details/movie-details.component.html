@@ -1,0 +1,56 @@
+<div *ngIf="!movie" class="text-center">
+    <img src="/assets/images/loading.gif" alt="loading..">
+</div>
+<div class="row margin-top" *ngIf="movie">
+    <div class="col-md-12">
+        <button class="btn btn-primary" (click)="goBack()">Go Back</button>
+    </div>
+    <div class="col-md-4">
+        <img [src]="movie.Poster" [alt]="movie.Title" class="img img-thumbnail">
+    </div>
+    <div class="col-md-8">
+        <h3>{{ movie.Title }}</h3>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Director</td>
+                    <td>{{ movie.Director }}</td>
+                </tr>
+                <tr>
+                    <td>Plot</td>
+                    <td>{{ movie.Plot }}</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td>{{ movie.Year }}</td>
+                </tr>
+                <tr>
+                    <td>Genre</td>
+                    <td>{{ movie.Genre }}</td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>{{ movie.Language }}</td>
+                </tr>
+                <tr>
+                    <td>Actors</td>
+                    <td>{{ movie.Actors }}</td>
+                </tr>
+                <tr>
+                    <td>IMDB</td>
+                    <td>{{ movie.imdbRating }} ({{ movie.imdbVotes }})</td>
+                </tr>
+                <tr>
+                    <td>Boxoffice</td>
+                    <td>{{ movie.BoxOffice }}</td>
+                </tr>
+                <tr>
+                    <td>Released</td>
+                    <td>{{ movie.Released }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
