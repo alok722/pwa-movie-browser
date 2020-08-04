@@ -1,29 +1,57 @@
-# Progressive Web App - Movie Browser
+<h1 align="center">Welcome to Movi Browser - Progressive WebApp 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/AlokR1" target="_blank">
+    <img alt="Twitter: AlokR1" src="https://img.shields.io/twitter/follow/AlokR1.svg?style=social" />
+  </a>
+  <a href="https://github.com/alok722" target="_blank">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/alok722?style=social">                                       
+  </a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.<br/>
-An angular movie browser app with added functionality of PWA consuming OMDB API.
+> An angular movie browser app with added functionality of PWA consuming OMDB API
 
-## Development server
+### 🏠 [Homepage](https://movibrowser.firebaseapp.com/home)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.<br/>
-If for some reason API is not working, please raise an issue and let me know.
+### ✨ [Demo](https://movibrowser.firebaseapp.com/home)
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+npm install
+```
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```sh
+ng serve
+```
 
-## Running unit tests
+## Run tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm run test
+```
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+👤 **Alok Raj**
 
-## Further help
+* Website: https://opendevs.in
+* Twitter: [@AlokR1](https://twitter.com/AlokR1)
+* Github: [@alok722](https://github.com/alok722)
+* LinkedIn: [@alok722](https://linkedin.com/in/alok722)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alok722/pwa-movie-browser/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
