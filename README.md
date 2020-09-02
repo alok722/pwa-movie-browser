@@ -4,8 +4,8 @@
   <a href="#" target="_blank">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
   </a>
-  <a href="https://twitter.com/AlokR1" target="_blank">
-    <img alt="Twitter: AlokR1" src="https://img.shields.io/twitter/follow/AlokR1.svg?style=social" />
+  <a href="https://twitter.com/alok722" target="_blank">
+    <img alt="Twitter: alok722" src="https://img.shields.io/twitter/follow/alok722.svg?style=social" />
   </a>
   <a href="https://github.com/alok722" target="_blank">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/alok722?style=social">                                       
@@ -41,7 +41,7 @@ npm run test
 👤 **Alok Raj**
 
 * Website: https://opendevs.in
-* Twitter: [@AlokR1](https://twitter.com/AlokR1)
+* Twitter: [@alok722](https://twitter.com/alok722)
 * Github: [@alok722](https://github.com/alok722)
 * LinkedIn: [@alok722](https://linkedin.com/in/alok722)
 
